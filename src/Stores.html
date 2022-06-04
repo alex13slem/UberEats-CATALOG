@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html',{
+"title":"Stores"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+		<main class="main">
+			<section class="stores">
+				<div class="stores__container">
+					<h2 class="stores__title body-title">Рестораны в Москве</h2>
+					<form class="stores__search-form">
+						<input type="text" placeholder="Поиск по ресторанам и кухням" name="Search" id="Search">
+					</form>
+					<div class="stores__carts-block carts-block">
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo1.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">Макдональдс - Газетный</h3>
+								<h4 class="carts-block__category">₽₽ • Бургеры</h4>
+								<p class="carts-block__time">25 - 35 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo2.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">DimSum & Co — ЦДМ</h3>
+								<h4 class="carts-block__category">₽ • Японская • Китайская • Азиатская</h4>
+								<p class="carts-block__time">40 - 50 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo3.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">ДвижОК — Манежная</h3>
+								<h4 class="carts-block__category">₽ • Американская • Европейская</h4>
+								<p class="carts-block__time">35 - 45 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo4.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">НЯ — NHA</h3>
+								<h4 class="carts-block__category">₽₽ • Вьетнамская</h4>
+								<p class="carts-block__time">30 - 40 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo5.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">Точка Дзы — Цветной</h3>
+								<h4 class="carts-block__category">₽₽ • Вьетнамская</h4>
+								<p class="carts-block__time">40 - 50 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo6.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">Cinnabon</h3>
+								<h4 class="carts-block__category">₽ • Выпечка • Десерты • Капкейки</h4>
+								<p class="carts-block__time">25 - 35 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo7.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">PIZZELOVE</h3>
+								<h4 class="carts-block__category">₽₽ • Пицца</h4>
+								<p class="carts-block__time">15 - 25 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo8.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">Zю кафе — Тверская</h3>
+								<h4 class="carts-block__category">₽₽ • Японская</h4>
+								<p class="carts-block__time">25 - 35 мин</p>
+							</article>
+						</a>
+						<a href="Rest.html">
+							<article class="carts-block__item">
+								<img src="@img/main/photo9.jpg" alt="pic" class="carts-block__pic">
+								<h3 class="carts-block__title">Bar BQ Cafe — Манежная</h3>
+								<h4 class="carts-block__category">₽₽₽ • Европейская</h4>
+								<p class="carts-block__time">30 - 40 мин</p>
+							</article>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

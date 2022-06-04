@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html',{
+"title":"Restaurant"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+		<main class="main">
+			<section class="rest-header">
+				<div class="rest-header__container">
+					<article class="rest-header__cart rest-name-cart">
+						<h1 class="rest-name-cart__title">Трактир «Пушкин»</h1>
+						<div class="rest-name-cart__info">
+							₽₽₽ • Европейская
+							<span>40 - 50 мин</span>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="rest-navigate">
+				<div class="rest-navigate__container">
+					<nav class="rest-navigate__nav">
+						<ul>
+							<li><a href="">Закуски</a></li>
+							<li><a href="">Салаты</a></li>
+							<li><a href="">Супы</a></li>
+							<li><a href="">Горячие блюда</a></li>
+							<li><a href="">Гарниры</a></li>
+							<li><a href="">Десерты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="rest-body">
+				<div class="rest-body__container">
+					<h2 class="rest-body__title body-title">Закуски</h2>
+					<div class="rest-body__menu-list rest-menu-list">
+						<a href="">
+							<article class="rest-menu-list__item menu-list-article">
+								<img src="@img/restaurant/item-1.jpg" alt="">
+								<div class="menu-list-article__info">
+									<h3 class="menu-list-article__title">Сельдь на бородинском хлебе</h3>
+									<h4 class="menu-list-article__subtitle">С яйцом и огурцом</h4>
+									<span class="menu-list-article__price">240 ₽</span>
+								</div>
+							</article>
+						</a>
+						<a href="">
+							<article class="rest-menu-list__item menu-list-article">
+								<img src="@img/restaurant/item-2.jpg" alt="">
+								<div class="menu-list-article__info">
+									<h3 class="menu-list-article__title">Соленья ассорти</h3>
+									<h4 class="menu-list-article__subtitle"></h4>
+									<span class="menu-list-article__price">320 ₽</span>
+								</div>
+							</article>
+						</a>
+						<a href="">
+							<article class="rest-menu-list__item menu-list-article">
+								<img src="@img/restaurant/item-3.jpg" alt="">
+								<div class="menu-list-article__info">
+									<h3 class="menu-list-article__title">Грибы маринованные</h3>
+									<h4 class="menu-list-article__subtitle"></h4>
+									<span class="menu-list-article__price">300 ₽</span>
+								</div>
+							</article>
+						</a>
+						<a href="">
+							<article class="rest-menu-list__item menu-list-article">
+								<img src="@img/restaurant/item-4.jpg" alt="">
+								<div class="menu-list-article__info">
+									<h3 class="menu-list-article__title">Сало домашнее с горчицей</h3>
+									<h4 class="menu-list-article__subtitle"></h4>
+									<span class="menu-list-article__price">320 ₽</span>
+								</div>
+							</article>
+						</a>
+						<a href="">
+							<article class="rest-menu-list__item menu-list-article">
+								<img src="@img/restaurant/item-5.jpg" alt="">
+								<div class="menu-list-article__info">
+									<h3 class="menu-list-article__title">Малосольная семга</h3>
+									<h4 class="menu-list-article__subtitle"></h4>
+									<span class="menu-list-article__price">390 ₽</span>
+								</div>
+							</article>
+						</a>
+						<a href="">
+							<article class="rest-menu-list__item menu-list-article">
+								<img src="@img/restaurant/item-6.jpg" alt="">
+								<div class="menu-list-article__info">
+									<h3 class="menu-list-article__title">Язык говяжий с хреном</h3>
+									<h4 class="menu-list-article__subtitle"></h4>
+									<span class="menu-list-article__price">350 ₽</span>
+								</div>
+							</article>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
