@@ -1,5 +1,5 @@
 # UBER EATS
-### *Онлайн-платформа для замовлення і доставки їжі.*
+### *Online platform for ordering and delivering food.*
 
-`Робота для портфоліо №3`
+`Working for portfolio №3`
 #### 30.05.2022
